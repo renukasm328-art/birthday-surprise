@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- WELCOME PAGE -->
+
+    <section id="welcome">
+
+        <div class="welcome-box">
+
+            <div class="cake">🎂</div>
+
+            <h1>Hey My forever11:11! 💗</h1>
+
+            <p>
+                I made a little surprise specially for you...
+            </p>
+
+            <button onclick="openBirthday()">
+                Open Your Surprise 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- BIRTHDAY PAGE -->
+
+    <section id="birthday" class="hidden">
+
+        <h1>🎉 HAPPY BIRTHDAY 🎉</h1>
+
+        <h2>
+            To My Most Special Person ❤️
+        </h2>
+
+
+        <!-- MUSIC -->
+
+        <div class="music-box">
+
+            <p>🎵 A little birthday music for you 🎵</p>
+
+           <audio
+    id="birthdayMusic"
+    controls
+    loop>
+    
+    <source
+        src="music/birthday-song1.mp3"
+        type="audio/mpeg">
+
+</audio>
+
+            <button
+                onclick="toggleMusic()"
+                id="musicButton">
+
+                🎵 Play Music
+
+            </button>
+
+        </div>
+
+
+
+        <!-- GIFT -->
+
+        <div
+            class="gift"
+            onclick="openMessage()">
+
+            🎁
+
+        </div>
+
+        <p id="giftText">
+            Click the gift 🎁
+        </p>
+
+
+
+        <!-- PERSONAL MESSAGE -->
+
+        <div
+            id="message"
+            class="message hidden">
+
+            <h2>💌 A Message For You</h2>
+
+            <p>
+
+                Happy Birthday to the most special person and one of
+                the best friends I could ever ask for! 🥹❤️
+
+                <br><br>
+
+                You make life brighter just by being in it.
+                Thank you for all the laughs, memories, support,
+                and for always being there.
+
+                <br><br>
+
+                I’m genuinely lucky to have you in my life. 🫶✨
+
+                <br><br>
+
+                Some friendships don’t fade with time;
+                they only grow stronger and more beautiful.
+                I hope ours always stays this special...
+
+                <br><br>
+
+                Life may bring many people into our lives,
+                but only a few truly become a part of our heart.
+                You are one of those rare people for me. ❤️
+
+            </p>
+
+        </div>
+
+
+
+        <!-- OUR MEMORIES -->
+
+        <div class="photos">
+
+            <h2>📸 Our Memories</h2>
+
+            <p>
+                A few memories that mean a lot to me ❤️
+            </p>
+
+
+            <div class="photo-container">
+
+
+                <div class="photo-card">
+
+                    <img
+                        src="photos/photo1.jpeg"
+                        alt="Our Memory 1">
+
+                    <p>
+                        A beautiful memory ❤️
+                    </p>
+
+                </div>
+
+
+
+                <div class="photo-card">
+
+                    <img
+                        src="photos/photo2.jpeg"
+                        alt="Our Memory 2">
+
+                    <p>
+                        One of those unforgettable moments 🥹💕
+                    </p>
+
+                </div>
+
+
+
+                <div class="photo-card">
+
+                    <img
+                        src="photos/photo3.jpeg"
+                        alt="Our Memory 3">
+
+                    <p>
+                        A memory I'll always cherish 🫶✨
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FINAL SURPRISE -->
+
+        <button
+            class="surprise-button"
+            onclick="showFinalMessage()">
+
+            One Last Surprise 💖
+
+        </button>
+
+
+
+        <!-- FINAL MESSAGE -->
+
+        <div
+            id="finalMessage"
+            class="final hidden">
+
+            <h1>
+                💖 YOU ARE SPECIAL 💖
+            </h1>
+
+            <p>
+
+                I'm genuinely grateful that life brought
+                you into my life. 🥹❤️
+
+                <br><br>
+
+                No matter how much time passes,
+                I hope our friendship always remains
+                this beautiful.
+
+                <br><br>
+
+                Here's to many more memories,
+                laughs and crazy moments together! 🫶✨
+
+            </p>
+
+
+            <div class="hearts">
+
+                💗 💕 💖 💓 💗
+
+            </div>
+
+
+            <h2>
+                Happy Birthday Once Again! 🎂🎉
+            </h2>
+
+        </div>
+
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
